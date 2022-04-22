@@ -1,8 +1,7 @@
 import styles from '../styles/index.module.css'
 
-import { Navigation, Pagination, A11y , Autoplay} from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, A11y , Autoplay} from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
