@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    min-height: calc(100vh - 100px);
+    justify-content: center;
+}
+
+.navbar{
+    height: 65px;
+}
+
+.carousel{
+    background-color: black;
+}
