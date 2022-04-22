@@ -1,4 +1,4 @@
-import Navbar from './navbar'
+import MainNavbar from './navbar'
 import Footer from './footer'
 
 import Head from 'next/head'
@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Head>
           <title>Teste</title>
       </Head>
-      <Navbar />
+      <MainNavbar />
       <main>{children}</main>
       <Footer />
     </>

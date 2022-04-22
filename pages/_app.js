@@ -1,8 +1,6 @@
-import './bootstrap/css/bootstrap.css'
 import '../styles/globals.css'
 import Layout from './components/layout'
-
-import '@popperjs/core';
+import './bootstrap/css/bootstrap.css'
 
 function MyApp({ Component, pageProps }) {
     return  (
@@ -13,3 +11,4 @@ function MyApp({ Component, pageProps }) {
     }
 
 export default MyApp
+
