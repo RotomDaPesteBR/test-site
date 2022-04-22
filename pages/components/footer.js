@@ -1,9 +1,9 @@
 export default function Footer(){
     return (
         <footer class='bg-dark' style={stylesheet}>
-            <div>
+            <div id="footer">
             <p>
-                <span>Rotom</span>
+                <span>João Pedro</span>
             </p>
             </div>
         </footer>

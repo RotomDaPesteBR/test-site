@@ -12,12 +12,12 @@ import 'swiper/css/scrollbar';
 
 function Home() {
     return  <div className={styles.container}>
-                <div className={styles.navbar}></div>
+                <div id="navbar" className={styles.navbar}></div>
                 
                 <div className={styles.carousel}>
                 <Swiper
                     modules={[Navigation, Pagination, A11y, Autoplay]}
-                    spaceBetween={50}
+                    spaceBetween={0}
                     slidesPerView={1}
                     navigation
                     autoplay={{
@@ -29,9 +29,9 @@ function Home() {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                 >
-                    <SwiperSlide><img src="https://setlivewallpaper.com/wp-content/uploads/2021/12/Mobius-Honkai-Impact-3-thumb.jpg" class="d-block w-100" alt="..."/></SwiperSlide>
-                    <SwiperSlide><img src="https://www.pockettactics.com/wp-content/uploads/2021/10/honkai-impact-5-2.jpg" class="d-block w-100" alt="..."/></SwiperSlide>
-                    <SwiperSlide><img src="https://media.discordapp.net/attachments/713753403205091478/967159089325043823/unknown.png?width=1202&height=676" class="d-block w-100" alt="..."/></SwiperSlide>
+                    <SwiperSlide><img src="https://images.hdqwalls.com/download/star-wars-the-rise-of-skywalker-new-5k-rh-1920x1080.jpg" class="d-block w-100" alt="..."/></SwiperSlide>
+                    <SwiperSlide><img src="https://cdn.wallpapersafari.com/36/54/NWIj9Y.jpg" class="d-block w-100" alt="..."/></SwiperSlide>
+                    <SwiperSlide><img src="https://wallpaperaccess.com/full/1347954.jpg" class="d-block w-100" alt="..."/></SwiperSlide>
                 </Swiper>
 
                 </div>
